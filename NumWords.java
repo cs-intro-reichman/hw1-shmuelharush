@@ -5,6 +5,6 @@ public class NumWords {
 		int hundreds = (input/100)%10;
 		int tens = (input/10)%10;
 		int ones = (input)%10;
-		System.out.println(hundreds + " hundreds, " + tens + " tens, " + ones + " ones, " );
+		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones. " );
 	}
 }
